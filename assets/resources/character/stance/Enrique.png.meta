@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "147438d0-c7c1-424b-b86d-73e2a8f88948",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1000,
+  "height": 1200,
+  "platformSettings": {},
+  "subMetas": {
+    "Enrique": {
+      "ver": "1.0.4",
+      "uuid": "9b272c7c-72a3-45a8-947c-06c779f1723d",
+      "rawTextureUuid": "147438d0-c7c1-424b-b86d-73e2a8f88948",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -81,
+      "offsetY": -47,
+      "trimX": 202,
+      "trimY": 118,
+      "width": 434,
+      "height": 1058,
+      "rawWidth": 1000,
+      "rawHeight": 1200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

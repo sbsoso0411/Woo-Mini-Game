@@ -1,0 +1,366 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "attack_mm",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.6666666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "stance1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -200,
+                -200,
+                0
+              ],
+              "curve": "constant"
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                30,
+                -200,
+                0
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                50,
+                -200,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                50,
+                -200,
+                0
+              ]
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": [
+                60,
+                -200,
+                0
+              ]
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": [
+                60,
+                -200,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.4,
+                "y": 0.4
+              },
+              "curve": "constant"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": -0.35,
+                "y": 0.35
+              }
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "8d73ec17-df0e-4326-ab7b-33bc951611dc"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "1945ad99-cc20-4010-9e52-a1bd283c8b4f"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "stance2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "react": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                150,
+                -200,
+                0
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                150,
+                -200,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                150,
+                -200,
+                0
+              ]
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": [
+                160,
+                -200,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "attack": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -100,
+                -200,
+                0
+              ]
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                -100,
+                -200,
+                0
+              ],
+              "curve": "linear"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                0,
+                -200,
+                0
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "c0bdeeae-d135-4c84-8865-78bc36fbda44"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "sfx": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                220,
+                -30,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.4,
+                "y": 0.4
+              }
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.8333333333333334,
+                "value": {
+                  "__uuid__": "3ed0bd10-6b99-47ee-b0b6-07f85d634896"
+                }
+              },
+              {
+                "frame": 0.8666666666666667,
+                "value": {
+                  "__uuid__": "7a39b1d3-53fd-434f-9bf5-d762491621cb"
+                }
+              },
+              {
+                "frame": 0.9,
+                "value": {
+                  "__uuid__": "c3aa6d5f-a560-41bc-a7ae-9780ef2c7685"
+                }
+              },
+              {
+                "frame": 0.9333333333333333,
+                "value": {
+                  "__uuid__": "3570b528-a67b-42b5-809a-67fd9f6d3bb6"
+                }
+              },
+              {
+                "frame": 0.9666666666666667,
+                "value": {
+                  "__uuid__": "d7b17c1f-641b-4c13-8bfc-438cbf51ddac"
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__uuid__": "0b5ce1df-81b7-4f61-9433-24273b35d661"
+                }
+              },
+              {
+                "frame": 1.0333333333333334,
+                "value": {
+                  "__uuid__": "a070a59e-3aed-4315-841a-d10d6c476e56"
+                }
+              },
+              {
+                "frame": 1.0666666666666667,
+                "value": {
+                  "__uuid__": "03ab82d9-eb61-41d5-ab37-b584b60bc944"
+                }
+              },
+              {
+                "frame": 1.1,
+                "value": {
+                  "__uuid__": "1b24aae7-758e-456d-ae3d-9f3affcedac0"
+                }
+              },
+              {
+                "frame": 1.1333333333333333,
+                "value": {
+                  "__uuid__": "f4ca5575-fc8e-4e4d-9c20-3477b75522f8"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

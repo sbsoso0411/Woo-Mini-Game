@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "923280f7-453b-47b9-b4b7-9066d88ee0b7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 800,
+  "height": 1000,
+  "platformSettings": {},
+  "subMetas": {
+    "Perry Saturn": {
+      "ver": "1.0.4",
+      "uuid": "26455c43-5275-4801-9e6f-50f600dfeab2",
+      "rawTextureUuid": "923280f7-453b-47b9-b4b7-9066d88ee0b7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -39,
+      "offsetY": 0,
+      "trimX": 74,
+      "trimY": 0,
+      "width": 574,
+      "height": 1000,
+      "rawWidth": 800,
+      "rawHeight": 1000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

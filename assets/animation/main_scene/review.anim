@@ -1,0 +1,51 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "review",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "background": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.65,
+              "value": 230
+            }
+          ]
+        }
+      },
+      "character_img": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.4,
+              "value": [
+                0,
+                -900,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                0,
+                -220,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

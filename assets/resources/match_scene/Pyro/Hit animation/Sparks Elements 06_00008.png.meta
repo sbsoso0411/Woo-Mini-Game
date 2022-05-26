@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "fa904a2a-3e37-4804-9adf-a3cd4cc72a0e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1000,
+  "height": 1000,
+  "platformSettings": {},
+  "subMetas": {
+    "Sparks Elements 06_00008": {
+      "ver": "1.0.4",
+      "uuid": "03ab82d9-eb61-41d5-ab37-b584b60bc944",
+      "rawTextureUuid": "fa904a2a-3e37-4804-9adf-a3cd4cc72a0e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -30.5,
+      "offsetY": -11,
+      "trimX": 146,
+      "trimY": 188,
+      "width": 647,
+      "height": 646,
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
